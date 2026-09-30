@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "anythingllm": {
+      "type": "local",
+      "command": ["py", "D:\\makeai\\anything_mcp\\run.py"],
+      "environment": {
+        "ANYTHINGLLM_BASE_URL": "http://localhost:3001",
+        "ANYTHINGLLM_API_KEY": "your-anythingllm-api-key"
+      },
+      "enabled": true
+    }
+  }
+}

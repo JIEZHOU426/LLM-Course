@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "anythingllm": {
+      "command": "py",
+      "args": ["D:\\makeai\\anything_mcp\\run.py"],
+      "env": {
+        "ANYTHINGLLM_BASE_URL": "http://localhost:3001",
+        "ANYTHINGLLM_API_KEY": "your-anythingllm-api-key"
+      }
+    }
+  }
+}
